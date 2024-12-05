@@ -1,0 +1,2 @@
+Goto proxy:	run server.js
+Goto web:	run- npm run dev

@@ -1,15 +1,13 @@
-# URL Scanner (`URL-Scanner0406`)
+# URL Scanner & Phishing Detection Framework
 
-![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Language](https://img.shields.io/badge/Language-Python%203.x-informational) ![Focus](https://img.shields.io/badge/Focus-Phishing%20%26%20Malicious%20URL%20Detection-orange) ![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Phase-0%2F6%20Complete-blue) ![Language](https://img.shields.io/badge/Language-Python%203.x-informational) ![Focus](https://img.shields.io/badge/Focus-URL%20Analysis%20%26%20Phishing%20Detection-orange)
 
-A high-performance, modular URL analysis framework engineered to detect phishing attempts, credential harvesting pages, malicious redirects, and suspicious domain infrastructures through automated heuristic inspection, network telemetry, and threat intelligence enrichment.
+A modular security tool built to analyze suspicious URLs, detect phishing indicators, inspect network infrastructure, and identify malicious web redirect chains before users interact with them.
 
-> Aim: Ingest links. Extract lexical & structural features. Inspect network infrastructure. Query threat intelligence. Classify risk.
-
----
+> Aim: Ingest early. Inspect deeply. Trace routes. Evaluate reputation. Score risk accurately. Expand capabilities iteratively.
 
 ## What this project demonstrates
 
 ```text
-URL Submission → Lexical & Obfuscation Parsing → Domain & DNS Inspection → SSL/TLS Validation →
-HTTP Redirection Tracking → Threat Intel Enrichment → Risk Scoring Engine → Triage Report
+URL Ingestion → Lexical Deconstruction → Domain & WHOIS Triage → SSL/TLS Validation →
+HTTP Redirect Tracing → Threat Intel Enrichment → Risk Scoring → Incident Telemetry Export
